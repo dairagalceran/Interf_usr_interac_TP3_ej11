@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    place-content: center;
+    padding-top: 100px;
+}
+
+/* Estilos tarjeta: tamaño, selección foto de fondo
+transición: sombras por 2 segundos */
+#card {
+    width: 500px;
+    height: 350px;
+    cursor: pointer;
+    transition: box-shadow 2s, transform; /* atributo transform,  se define su transformación con js*/
+    background-image: url(/img/tree.jpeg);  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transform: none;
+}
+
+/* Al pasar el cursor sobre el div cin id card se dibuja una sombre */
+#card:hover{
+    box-shadow: 40px 40px 100px 30px rgb(152, 51, 51);   /* derecha, abajo,   %vdegradacion , %intensidad color*/
+}
+
+
+
+
+
+    
